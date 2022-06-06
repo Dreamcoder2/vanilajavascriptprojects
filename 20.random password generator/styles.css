@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--grey);
+  width: 100%;
+}
+.box {
+  background-color: var(--light-blue);
+  padding: 2rem;
+  width: 37rem;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 3rem;
+  color: #eee;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.form-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  color: white;
+  border-bottom: 1px solid var(--grey);
+  font-size: 1.6rem;
+}
+.form-field label {
+  cursor: pointer;
+}
+.p-header {
+  position: relative;
+}
+.p-header input {
+  width: 100%;
+  background-color: #eee;
+  padding: 1.1rem;
+  border-radius: 4px;
+  color: #1c2b2d;
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+}
+.p-header button,
+.form-field input[type="number"] {
+  padding: 3px 5px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+.p-header button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #7d9ac7;
+}
+#submit {
+  width: 100%;
+  padding: 1.2rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  color: #7e91ad;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#submit:hover {
+  transform: translateY(1px);
+  color: #7d9ac7;
+}
+.p-header button:hover {
+  transform: translateY(1px);
+}
+.form-field:hover {
+  transform: translateY(1px);
+}

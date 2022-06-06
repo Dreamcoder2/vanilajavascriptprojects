@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 100%;
+  background-color: #005490;
+}
+.calc {
+  height: 380px;
+  width: 350px;
+  border-radius: 3px;
+  background-color: #eee;
+}
+.calc h2 {
+  text-align: center;
+  background-color: #db6400;
+  color: #eee;
+  padding: 5px;
+  font-size: 22px;
+  border-radius: 3px;
+}
+
+form,
+form > * {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 16px;
+}
+form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input,
+select {
+  font-size: 16px;
+  padding: 7px;
+  width: 20rem;
+  text-align: right;
+}
+input,
+select,
+option {
+  text-align: left;
+}
+.btn {
+  padding: 5px;
+  border: 1px solid var(--black);
+  font-size: 16px;
+  background-color: #db6400;
+  margin-top: 5px;
+  color: #eee;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #9d0191;
+}
+hr {
+  margin-top: 5px;
+  border-bottom: 3px solid var(--blue);
+}
+.error {
+  display: none;
+}
+.results {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.results > * {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 4px;
+}
+.total {
+  color: rgb(175, 54, 54);
+}

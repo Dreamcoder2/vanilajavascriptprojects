@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(67, 102, 133, 0.47102591036414565) 35%,
+    rgb(11, 59, 150) 100%
+  );
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  background: url(./images/weather.png);
+  background-repeat: none;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+}
+.top {
+  text-align: center;
+  height: 70vh;
+  width: 23%;
+}
+h1 {
+  margin-top: 20px;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 5px;
+}
+.top input,
+.top button {
+  width: 80%;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #31326f;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+.top input {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid greenyellow;
+  border-radius: 10px 0 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.top input::placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.top button {
+  background-color: #1b9337;
+  color: #fff;
+  font-weight: 800;
+  transition: all 0.3s;
+}
+.top button:hover {
+  background-color: #00db00;
+  color: #fff;
+}
+.top .error {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 8px;
+  padding: 4px;
+}
+.icon {
+  text-align: center;
+  padding-top: 15px;
+}
+.location {
+  font-size: 14px;
+  padding: 5px;
+  color: #fff;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+.location .city {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+hr {
+  font-size: 8px;
+  border-bottom: 3px solid #fff;
+  z-index: 1;
+}
+.container-btm {
+  font-size: 14px;
+  padding: 5px;
+  color: #fff;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+.icon {
+  max-width: 80px;
+  height: 60px;
+  align-items: center;
+  margin-left: 35%;
+
+  margin-bottom: 10px;
+}
+.weather-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

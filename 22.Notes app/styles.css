@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+h2 {
+  font-size: 1.6rem;
+  color: #1c2b2d;
+  font-weight: 800;
+}
+/*start here*/
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  width: 100%;
+}
+.form-container {
+  width: 30%;
+}
+.notes-container {
+  margin-left: 25px;
+  width: 70%;
+}
+#notes {
+  height: 70vh;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#00070f, transparent);
+  border-radius: 6px;
+}
+form > * {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  outline: none;
+  font-size: 1.6rem;
+  padding: 7px;
+  border: 1px solid #777;
+  width: 100%;
+  border-radius: 3px;
+}
+form textarea {
+  height: 10rem;
+}
+
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+}
+.note {
+  background-color: rgb(148, 136, 136);
+  padding: 1rem;
+  border-radius: 3px;
+  margin: 1rem 0;
+}
+.note-cta {
+  display: flex;
+  justify-content: space-between;
+}
+.notes-counter {
+  font-size: 1.6rem;
+  color: #31326f;
+  display: inline-block;
+  font-weight: 900;
+}
+.notes-btn {
+  font-size: 1.4rem;
+}
+.note-btn {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: #1c2b2d;
+  color: white;
+  cursor: pointer;
+}
+.note-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+}
+.note-text {
+  font-size: 1.4rem;
+  color: #fff;
+}

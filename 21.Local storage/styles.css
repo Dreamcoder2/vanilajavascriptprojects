@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 5rem auto;
+}
+body {
+  background-image: linear-gradient(135deg, #8052ec, #d161ff);
+  object-fit: fill;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+section {
+  width: 100%;
+  padding: 0 3rem;
+}
+.additem {
+  background-color: #ffffff;
+  padding: 2.5rem 0;
+  margin: 2rem auto;
+  border-radius: 5px;
+}
+.additem form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.additem form input {
+  padding: 0.8rem 1.1rem;
+  font-size: 1.8rem;
+  color: #005490;
+  width: 75%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 1px solid;
+}
+::placeholder {
+  color: #005490;
+}
+
+form button {
+  width: 12%;
+  font-size: 1.6rem;
+  border: 1px solid transparent;
+  padding: 0.8rem;
+  background-color: #8052ec;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: #eee;
+}
+.todo-list {
+  overflow-y: scroll;
+  height: 50vh;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #6e8bb1);
+  border-radius: 6px;
+}
+h2 {
+  font-size: 2rem;
+  color: #eee;
+  margin-bottom: 1rem;
+}
+li {
+  font-size: 1.6rem;
+  margin: 5px 0;
+  background-color: #adbde0;
+  padding: 1rem;
+  color: #1c2b2d;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+ol li:nth-child(odd) {
+  background-color: #6a82fb;
+}
+hr {
+  border-bottom: 4px;
+  color: #6a82fb;
+}
+
+li button {
+  font-size: 1.6rem;
+  color: rgb(214, 59, 59);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: absolute;
+  right: 1rem;
+}
+
+.clear {
+  padding: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #9788ce;
+}

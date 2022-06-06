@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+/* .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+.main {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-blue);
+}
+.container {
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  background-color: #eee;
+  border: 2px solid green;
+}
+.input-text {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--color-sec);
+  padding: 5px;
+  margin-top: 20px;
+  width: 70%;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.btn {
+  border: none;
+  outline: none;
+  width: 25%;
+  padding: 7px;
+  border-radius: 3px;
+  color: var(--white);
+  background-color: var(--color-primary);
+}
+.result {
+  margin-top: 3.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
