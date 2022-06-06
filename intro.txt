@@ -1,1 +1,1 @@
-i am created some vanilla javascript projects to groom my javascript skills
+i am created some vanilla javascript projects to groom my javascript skills.
