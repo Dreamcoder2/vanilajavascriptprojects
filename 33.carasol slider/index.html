@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Product Slider</h1>
+    <!-- <div class="button">
+      <button onclick="sw()">scrlwidth</button>
+      <button onclick="sl()">scrllft</button>
+      <button onclick="sw()">clientwidthwidth</button>
+      <button onclick="calc()">calc</button>
+    </div> -->
+    <main>
+      <div class="slide-container">
+        <img
+          src="./images/arrow-left.png"
+          alt="left"
+          id="slide-left"
+          class="arrow"
+        />
+        <section class="container" id="slider">
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/1.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/2.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/3.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/4.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/5.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/6.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/7.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/8.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/13.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+
+          <!-- slider end -->
+          <!-- create images -->
+          <div class="thumbnail">
+            <img src="/images/12.png" alt="" />
+            <div class="product-details">
+              <h2>Demo products</h2>
+              <p>
+                <span><i class="fa fa-inr" aria-hidden="true"></i>.999</span
+                ><i class="fa fa-inr" aria-hidden="true"></i>
+                .699
+              </p>
+              <a href="">Add to cart</a>
+            </div>
+          </div>
+
+          <!-- slider end -->
+        </section>
+        <img
+          src="./images/arrow-right.png"
+          alt="left"
+          id="slide-right"
+          class="arrow"
+        />
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
