@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-center py-3 bg-primary text-light">
+            Spech to text Api Project
+          </h1>
+          <form action="" id="search-form">
+            <textarea
+              id="search-input"
+              cols="30"
+              rows="5"
+              class="form-control fs-3"
+            ></textarea>
+            <div
+              id="speech-btn"
+              class="spech-btn pt-1 d-flex justify-content-between pt-3"
+            >
+              <p class="instruction fs-5">Click the mic to start</p>
+              <button class="btn btn-danger">
+                <i class="fas fa-microphone"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
