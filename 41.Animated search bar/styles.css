@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main {
+  height: 200rem;
+}
+header {
+  background-color: var(--dark-grey);
+  padding: 1.3rem 0;
+  /* overflow-y: hidden; */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.search-box {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  text-align: right;
+}
+.fas {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.fa-times {
+  position: absolute;
+  transform: translateY(-200%);
+  transition: all 0.5s;
+}
+.fa-search {
+  transition: all 0.5s;
+}
+.search {
+  position: absolute;
+  right: 270px;
+  top: 1.4rem;
+  display: block;
+  transform: translateY(-200%);
+  transition: all 0.5s ease-in-out;
+}
+.search input {
+  padding: 1.5rem;
+  height: 2rem;
+  border-radius: 50px;
+  width: 40px;
+  border: none;
+  outline: none;
+  transition: all 1s ease-in-out;
+}
