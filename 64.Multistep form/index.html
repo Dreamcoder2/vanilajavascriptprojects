@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row box">
+        <div class="col-md-6">
+          <div class="form-container">
+            <div class="text-center">
+              <h2>Multi Step Form</h2>
+              <span>Fill the details below</span>
+            </div>
+            <!-- form -->
+            <form action="" onsubmit="return false">
+              <div class="steps">
+                <p class="step">1</p>
+                <p class="step">2</p>
+                <p class="step">3</p>
+                <p class="step">4</p>
+              </div>
+              <!-- form item -->
+              <div class="from-item">
+                <label for="" class="form-label">First name</label>
+                <input type="text" placeholder="Ex.john" class="form-control" />
+                <label for="" class="form-label">Last name</label>
+                <input type="text" placeholder="Ex.Doe" class="form-control" />
+              </div>
+              <div class="from-item">
+                <label for="" class="form-label">Age</label>
+                <input type="Number" class="form-control" />
+                <label for="" class="form-label">Gender</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="from-item">
+                <label for="" class="form-label">Education</label>
+                <input type="text" class="form-control" />
+                <label for="" class="form-label">Address</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="from-item">
+                <label for="" class="form-label">Email</label>
+                <input
+                  type="email"
+                  placeholder="john@example.com"
+                  class="form-control"
+                />
+                <label for="" class="form-label">password</label>
+                <input
+                  type="password"
+                  placeholder="1234"
+                  class="form-control"
+                />
+              </div>
+              <button class="btn btn-primary btn-lg">Previous</button>
+              <button class="btn btn-primary btn-lg">Next</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

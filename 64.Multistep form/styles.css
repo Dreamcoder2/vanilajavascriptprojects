@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #8ce99a;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.box {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border: 3px;
+}
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+  border-bottom: 1px solid #cfd2d4;
+}
+.steps p {
+  background: #8ce99a;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+form {
+  overflow: hidden;
+}
+
+.from-item {
+  margin: 1.5rem 0;
+  display: none;
+  animation: slide-in 0.5s ease;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(50rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.from-item input {
+  margin-bottom: 1rem;
+  padding: 8px;
+  font-size: 1.4rem;
+}
+.btn {
+  margin-right: 1rem;
+}
+label,
+span {
+  font-size: 1.4rem;
+}
